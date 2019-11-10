@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Guestbook</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<div class="wrap">
+
+			<div class="add">
+				<form action="save.php" method="post">
+					<textarea name="content" cols="50" rows="5" class="content"></textarea>
+					<input name="user" type="text" class="user" />
+					<input type="submit" value="send message" class="btn" />
+				</form>
+			</div>
+
+			<div class="msg">
+				<div class="info">
+					<span class="user2">Username</span>
+					<span class="time">2019-1-1 11:11:11</span>
+				</div>	
+				<div class="content2">
+					This is content.This is content.This is content.This is content.This is content.
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

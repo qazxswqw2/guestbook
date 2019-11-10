@@ -1,0 +1,36 @@
+.wrap{
+	width: 600px;
+	margin: 0px auto;
+}
+.add{
+	overflow: hidden;
+}
+.content {
+	width: 99%;
+}
+.user{
+	float: left;
+}
+.btn{
+	float: right;
+}
+.msg{
+	margin: 20px 0px;
+	background: #ccc;
+	padding: 5px;
+}
+.info{
+	overflow: hidden;
+}
+.content2{
+	width: 100%;
+	padding: 10px;
+}
+.user2{
+	float: left;
+	color: blue;
+}
+.time{
+	float: right;
+	color: #999;
+}
